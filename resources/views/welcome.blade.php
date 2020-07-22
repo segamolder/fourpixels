@@ -3,7 +3,7 @@
 @section('content')
     <div class="container">
         <div class="row justify-content-center align-items-center">
-            <h1 class="font-italic">Тестовое задание для 4 Пикселя</h1>
+            <img src="/images/welcome.png" alt="">
         </div>
     </div>
 @endsection
