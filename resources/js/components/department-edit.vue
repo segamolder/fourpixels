@@ -82,7 +82,7 @@
                 if (this.departament !== null) {
                     data.append("_method", "put");
                     axios.post(this.edit_route, data, {'content-type': 'multipart/form-data'}).then((response) => {
-                        alert(response.data.message);
+                        alert(response.data);
                     });
                 } else {
                     axios.post(this.store_route, data, {'content-type': 'multipart/form-data'}).then((response) => {
